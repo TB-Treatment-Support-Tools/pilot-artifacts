@@ -270,3 +270,6 @@ section.screenshots img{
   width: 200px;
 }
 
+section.screenshots .coordinator-image{
+  width: 600px;
+}
