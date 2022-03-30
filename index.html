@@ -25,28 +25,74 @@
 <body class="main-content">
 
   <!-- Add your site or application content here -->
-  <h1>TB Treatment Support Tools Pilot Study</h1>
-  <p>The TB Treatment Support Tools (TB-TSTs) are a set of software
-    tools that help monitor adherence to TB medication regmines and
-    provide support to patients throughout treatment. This site describes
-    an earlier set of the tools used in 2019 pilot study in Buenos Aires, Argentina.
-  </p>
+  <h1>TB Treatment Support Tools Pilot Study Artifacts </h1>
+
+  <nav>
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="#screenshots">Screenshots</a></li>
+      <li><a href="#code">Links to code</a></li>
+    </ul>
+
+    
+  </nav>
 
   <section>
-    <h2>Links to Code Used During Pilot Study</h2>
-    <p>These are links to GitHub "Releases" that show the state of the codebase at the time of the
-      pilot studys completion.
+    <h2>Background</h2>
+    <p>The TB Treatment Support Tools (TB-TSTs) are a set of software
+      tools that help monitor adherence to TB medication regmines and
+      provide support to patients throughout treatment.
     </p>
-    <ul>
-      <li><a>Front-End React Codebase</a></li>
-      <li><a>Back-End Ruby on Rails & Docker Codebase</a></li>
-    </ul>
-  
+    <p>
+      This site describes the earliest set of the tools used in 2019 pilot study in Buenos Aires, Argentina.
+    </p>
+
   </section>
-  <section>
+
+  <section id="screenshots" class="screenshots">
     <h2>Screenshots of the Application</h2>
     <h3>Patient Facing</h3>
+    <h4>Login Page & Homescreen Calendar</h4>
+    <img src="/img/login.png" />
+    <img src="/img/home.png" />
+    <h4>Daily Survey</h4>
+    <img src="/img/survey-1.png" />
+    <img src="img/survey-2.png" />
+    <img src="img/survey-photo-1.png" />
+    <img src="img/photo-capture.png" />
+    <h4>Progress Page</h4>
+    <h4>Communication Page</h4>
     <h3>Provider Facing</h3>
+  </section>
+
+  <section id="code">
+    <h2>Links to code</h2>
+    <p>These are links to GitHub "Releases" that show the state of the codebase at the time of the
+      pilot studys completion in <strong>September 2019</strong>.
+    </p>
+    <ul>
+      <li>Front End React Codebase
+        <ul>
+          <li><a target="blank" href="https://github.com/uwcirg/tb-mobile-app/tree/v1.0-stable">Code</a></li>
+          <li><a target="blank" href="https://github.com/uwcirg/tb-mobile-app/releases/tag/v1.0-stable">Release and
+              zipped files</a></li>
+        </ul>
+      </li>
+      <li>Back End Ruby on Rails & Docker Codebase
+        <ul>
+          <li><a target="blank" href="https://github.com/uwcirg/tb-foundation/tree/v1.0-stable">Code</a></li>
+          <li><a target="blank" href="https://github.com/uwcirg/tb-foundation/releases/tag/v1.0-stable">Release and
+              zipped files</a></li>
+        </ul>
+      </li>
+    </ul>
+    <h3>Contributors</h3>
+    <p>The code for the pilot study was primarily written by <a href="https://github.com/c4lliope">Grace Youngblood</a>
+      and <a href="https://github.com/campbellsean">Sean Campbell</a>.
+      <a href="https://github.com/kylegoodwin">Kyle Goodwin</a> took over towards the end to fix issues encountered during the pilot and begin development of version 2 which is used in the ongoing RCT.
+      Development was also supported by Ivan, Justin, and Bill of the <a href="https://www.cirg.washington.edu/">Clincal
+        Informatics Research Group</a> at UW.
+    </p>
   </section>
 </body>
 
